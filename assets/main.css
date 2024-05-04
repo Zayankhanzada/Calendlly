@@ -1,0 +1,279 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+/* colors and backgrounds */
+.bg-grey {
+    background-color: rgb(248, 249, 251);
+}
+.bg-skyblue{
+    background-color: rgb(230, 240, 255);
+}
+.text-darkblue{
+    color: #0B3558;
+}
+
+/* padding and margins */
+.py-8 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.mx-6{
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+.rounded-100{
+    border-radius: 100%;
+}
+/* buttons */
+.btn-secondary {
+    background: transparent;
+    color: rgb(71, 103, 136);
+    border-color: rgb(71, 103, 136);
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: rgb(71, 103, 136);
+}
+
+/* headings  and  font-sizes*/
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 38px;
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-14{
+font-size: 14px;
+}
+
+.image-wrapper {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.navbar-brand {
+width: auto;
+max-width: 160px;
+
+}
+
+
+.navbar.scrolled {
+    transition: 0.2s ease-out;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar:hover {
+    transition: 0.2s ease-out;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    padding: 10px 16px;
+}
+
+/* feature-card-section */
+.feature-cards-section .card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.08) 0px 30px 50px 0px;
+}
+
+.feature-cards-section h3 {
+    color: rgb(11, 53, 88);
+}
+
+.feature-cards-section .image-wrapper {
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Enterprise section */
+.Enterprise-section .image-wrapper {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* feedback-section */
+.feedback-section {
+    background: rgb(244, 248, 255);
+    ;
+}
+
+.feedback-section .box {
+    box-shadow: rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.08) 0px 30px 50px 0px;
+}
+.feedback-section .swiper-container{
+    overflow-x: hidden;
+}
+.feedback-section .image-wrapper {
+    width: auto;
+    height: auto;
+    min-height: 50px;
+    max-width: 80px;
+
+}
+
+/* security-tabs-section */
+.security-tabs-section .nav-link {
+    padding: 16px 36px;
+    transition: background-color 0.6s ease-in-out 0s;
+    border-bottom: 3px solid rgb(231, 237, 246);
+    border: 1px transparent;
+    color: grey;
+    white-space: nowrap;
+}
+
+.security-tabs-section .nav-link.active {
+    border-bottom: 4px solid cornflowerblue;
+    font-weight: 600;
+    color: cornflowerblue;
+}
+.security-tabs-section .nav .nav-tabs
+{
+overflow: hidden;
+}
+.swiper-slide {
+    flex: 0 0 auto; /* Ensure each slide takes up the necessary space */
+    width: auto; /* Allow each slide to be its natural width */
+  }
+/* Technology section */
+.technology-section .image-wrapper{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+.technology-section img{
+    min-height: 50px;
+    width: auto;
+}
+.technology-section .app-box{
+    
+    box-shadow: rgba(71, 103, 136, 0.04) 0px 4px 4.5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.06) 0px 15px 30px 0px;
+    border: 1px solid rgb(212, 224, 237);
+    background-color: rgb(255, 255, 255);
+}
+
+/* comparison section */
+.badge{
+    padding: 10px;
+}
+.comparison-section .line{
+    content: "";
+    width: 1px;
+    left: 50%;
+    top: 0px;
+    bottom: 0px;
+    transform: translateX(-50%);
+    background-color:black;
+}
+/* Enterprise-plan-section */
+.Enterprise-plan-section{
+    background: rgb(244, 248, 255);
+
+}
+.Enterprise-plan-section .btn-secondary{
+    border: 2px solid grey;
+}
+/* .signup-section */
+.signup-section{
+    background: rgb(11, 53, 88);
+}
+.signup-section .btn-secondary{
+    border: 2px solid white;
+}
+.connecting-section .card{
+    box-shadow: rgba(71, 103, 136, 0.04) 0px 4px 5px 0px, rgba(71, 103, 136, 0.03) 0px 8px 15px 0px, rgba(71, 103, 136, 0.06) 0px 15px 30px 0px;
+
+}
+/* footer */
+footer .badge{
+padding: 8px;
+}
+footer  .line {
+    content: "";
+    height: 0.5px;
+    width: 100%;
+    background-color: rgb(80, 95, 121);
+}
+@media screen and (max-width:575.98px) {
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+ 
+    .fs-18 {
+        font-size: 16px;
+    }
+
+    .fs-28 {
+        font-size: 24px;
+    }
+    .fs-20{
+        font-size: 18px;
+    }
+    .fs-24{
+        font-size: 20px;
+    }
+    .fs-60{
+     font-size: 50px;
+    }
+    .mx-6{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .btn{
+        padding: 15px 10px;
+    }
+    .connecting-section .badge{
+        padding: 7px;
+    }
+    
+    .security-tabs-section .nav.nav-tabs
+    {
+    overflow-x:scroll;
+    }
+}
