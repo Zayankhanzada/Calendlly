@@ -92,7 +92,9 @@ width: auto;
 max-width: 160px;
 
 }
-
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 
 .navbar.scrolled {
     transition: 0.2s ease-out;
